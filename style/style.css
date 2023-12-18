@@ -268,11 +268,24 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
   }
   .card-container {
     display: flex;
     flex-direction: column;
+  }
+  .wrapper-school-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-school:nth-child(3) {
+    display: none;
+  }
+
+  .card-school:nth-child(4) {
+    display: none;
   }
 }
 
@@ -316,4 +329,70 @@ header {
 .icon {
   color: #262837;
   font-size: 59px;
+}
+
+.wrapper-our-school {
+  margin-top: -10px;
+}
+
+.wrapper-our-school,
+.h,
+.sc {
+  text-align: center;
+  margin: 0;
+}
+
+.wrapper-our-school p {
+  color: #a7a7a7;
+}
+
+.wrapper-school-card {
+  display: flex;
+  padding-top: 17px;
+}
+
+.card-school {
+  background-color: #333652;
+  padding: 15px;
+  padding-bottom: 0px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  color: #ffffff;
+}
+
+.icon-2 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.card-school:nth-child(1) {
+  background-color: rgb(239 68 68);
+}
+
+.card-school:nth-child(2) {
+  background-color: rgb(14 165 233);
+}
+
+.card-school:nth-child(3) {
+  background-color: rgb(8 47 73);
+}
+
+.card-school:nth-child(4) {
+  background-color: rgb(20 184 166);
+}
+
+.carousel-container {
+  width: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
 }
