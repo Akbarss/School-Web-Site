@@ -7,6 +7,65 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <div>
+      <nav>
+        <div class="nav-wrapper">
+          <div class="left-nav">
+            <iconify-icon icon="mdi:location"></iconify-icon>
+            <p>London,Huja Soat</p>
+            <iconify-icon icon="gridicons:phone"></iconify-icon>
+            <a href="tel:+99891 (777 77 77) ">+998 91 (777 77 77)</a>
+            <iconify-icon icon="mi:email"></iconify-icon>
+            <p>demoSchool@gamil.com</p>
+          </div>
+          <div class="right-nav">
+            <p>Employment</p>
+            <p>Staff Directory</p>
+            <p>Events</p>
+            <p>News</p>
+            <p>Contacts</p>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="wrapper-header">
+          <div class="container-header">
+            <div class="logo">
+              <img src="./asset/logo_school.svg" class="img-log" alt="" />
+              <h3>71 Maktab</h3>
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+            <div class="link-header">
+              <a href="#Home">Home</a>
+              <a href="#Galereya">Galereya</a>
+              <a href="#About">About</a>
+              <a href="#Contact">Contact</a>
+            </div>
+          </div>
+          <!------  Menu Header  ----->
+
+          <div class="header">
+            <span class="menu-btn" onclick="toggleMenu()">
+              <span class="menu-icon">&#9776;</span>
+            </span>
+            <ul class="nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!-- Mobile Menu -->
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </body>
 </html>
