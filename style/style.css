@@ -586,3 +586,21 @@ ul {
     width: 100%;
   }
 }
+
+.telegram {
+  background-color: #151515;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-right: 20rem;
+}
+
+.tel {
+  font-size: 10px;
+}

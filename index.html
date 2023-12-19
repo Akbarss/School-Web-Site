@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>71 Maktab Web Site</title>
+    <title>72 Maktab Web Site</title>
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div>
@@ -34,7 +35,7 @@
           <div class="container-header">
             <div class="logo">
               <img src="./asset/logo_school.svg" class="img-log" alt="" />
-              <h3>71 Maktab</h3>
+              <h3>72 Maktab</h3>
             </div>
             <div class="menu-toggle" onclick="toggleMenu()">
               <span class="bar"></span>
@@ -60,11 +61,12 @@
               <li><a href="#">About</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="#">Contact</a></li>
+              <iconify-icon icon="skill-icons:instagram" class=""></iconify-icon>
             </div>
           </div>
         </div>
       </header>
-      <div class="image-block">
+      <div class="image-block" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
         <div class="img-block-text">
           <img src="./asset/logo_school.svg" class="img-logo-block" alt="" />
           <div class="text-bg">
@@ -73,7 +75,13 @@
           </div>
         </div>
       </div>
-      <div class="container-block-2">
+      <div
+        class="container-block-2"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+      >
         <div class="wrapper-card">
           <div class="card">
             <div class="card-content">
@@ -347,5 +355,9 @@
     <script src="./js/script.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
